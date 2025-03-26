@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aplicativo para Selfie</title>
+</head>
+<body>
+    <h1>Meu álbum de fotos</h1>
+    <div class="container">
+        <video id='vd-foto' src=""></video>
+        <div class="buttons">
+            <button id='btn-foto'>Tirar foto :P</button>
+            <button id='btn-foto2'>Tirar foto em preto e branco :P</button>
+            <button id="parar-foto">parar</button>
+        </div>
+    </div>
+    <div id="preview">
+        <table>
+            <tr>
+                <th><canvas id="cv-foto1"></canvas></th>
+                <th><canvas id="cv-foto2"></canvas></th>
+                <th><canvas id="cv-foto3"></canvas></th>
+                <th><canvas id="cv-foto4"></canvas></th>
+            </tr>
+            <tr>
+                <td><canvas id="cv-foto5"></canvas></td>
+                <td><canvas id="cv-foto6"></canvas></td>
+                <td><canvas id="cv-foto7"></canvas></td>
+                <td><canvas id="cv-foto8"></canvas></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
